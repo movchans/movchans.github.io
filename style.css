@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	padding: 0;
+	margin: 20px 0;
+}
+
+.container {
+	display: grid;
+}
+
+.chld {
+
+}
+
+.box1 {
+
+}
+
+.box2 {
+
+}
+
+.box3 {
+	
+}
+
+.box4 {
+	
+}
