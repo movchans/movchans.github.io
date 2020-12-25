@@ -1,17 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap');
 
-@font-face {
-    font-family: elgoc;
-    src: url(../font/Elgoc-Regular.woff);
-}
-  
 @font-face {
     font-family: modena;
     src: url(../font/ModenaScript-Regular.otf);
-}
-
-@font-face {
-    font-family: ttnorms;
-    src: url(../font/TTNorms-Regular.otf);
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -25,7 +17,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 nav a{
-    font-family: ttnorms;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     color: rgba(39, 39, 39, .9);
     letter-spacing: 0.04em;
@@ -72,7 +64,7 @@ nav a{
 }
 
 .loading-screen h1{
-    font-family: elgoc;
+    font-family: 'Playfair Display', serif;
     font-size: 4vw;
     color: #fff;
     letter-spacing: 2px;
@@ -80,7 +72,7 @@ nav a{
 }
 
 .loading-screen p{
-    font-family: ttnorms;
+    font-family: 'Roboto', sans-serif;
     opacity: .5;
     font-size: .7rem;
     letter-spacing: 1px;
@@ -108,7 +100,7 @@ nav a{
 /*INDEX STYLES*/
 
 .text h1{
-    font-family: elgoc;
+    font-family: 'Playfair Display', serif;
     color: var(--title-color);
 }
 
@@ -164,7 +156,7 @@ nav a{
 }
 
 .main-title h1{
-    font-family: elgoc;
+    font-family: 'Playfair Display', serif;
     font-size: 7.32vw;
     line-height: 97%;
     color: var(--title-color);
@@ -189,7 +181,7 @@ nav a{
 }
 
 .about-content h3, .project-content h3{
-    font-family: ttnorms;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     opacity: .5;
@@ -199,7 +191,7 @@ nav a{
 .about-containers p, .about-containers li{
     font-size: 1rem;
     opacity: .7;
-    font-family: ttnorms;
+    font-family: 'Roboto', sans-serif;
     color: var(--title-color);
     line-height: 22px;
 }
@@ -221,7 +213,7 @@ nav a{
 .contact a{
     font-size: 25px;
     padding-top: 8px;
-    font-family: elgoc;
+    font-family: 'Playfair Display', serif;
 }
 
 .contact a::after{
@@ -239,7 +231,7 @@ nav a{
 /*PROJECTS*/
 
 .project-info h1, .cover h1{
-    font-family: elgoc;
+    font-family: 'Playfair Display', serif;
     font-size: 8vw;
     line-height: 88%;
     color: var(--title-color);
@@ -267,7 +259,7 @@ nav a{
 .project-info p, .cover p{
     font-size: 1rem;
     opacity: .7;
-    font-family: ttnorms;
+    font-family: 'Roboto', sans-serif;
     color: var(--title-color);
     line-height: 22px;
 }
@@ -300,7 +292,7 @@ nav a{
 }
 
 .next-project h1{
-    font-family: elgoc;
+    font-family: 'Playfair Display', serif;
     font-size: 7vw;
     color: var(--title-color);
     text-transform: uppercase;
